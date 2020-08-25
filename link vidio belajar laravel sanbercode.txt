@@ -68,7 +68,7 @@ How To Deploy Laravel On Heroku
 https://www.youtube.com/playlist?list=PL1aMeb5UP_PG1c7KcB-5RGjN8C5q5kzWX
 
 Menginstall Postgresql dan Memasangkannya ke Laravel
-https://www.youtube.com/watch?v=MOxedQDjjTk
+https://www.youtube.com/watch?v=MOxedQDjjTk.
 
 
 
