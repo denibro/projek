@@ -1,0 +1,76 @@
+
+html
+https://www.youtube.com/playlist?list=PLCZlgfAG0GXC9ojTmU95BRefbJoi4clY-
+
+css dasar
+https://www.youtube.com/playlist?list=PLFIM0718LjIUBrbm6Gdh6k7ZUvPIAZm7p
+
+Bootstrap 4
+https://www.youtube.com/playlist?list=PLce3Eyp7oY9-o3JavSawkXcazJSYx7KAf
+
+javascript
+https://www.youtube.com/playlist?list=PLCZlgfAG0GXAiH1acKFPx8EtpJAq44gjP
+
+dom
+https://www.youtube.com/playlist?list=PLFIM0718LjIWB3YRoQbQh82ZewAGtE2-3 
+
+php
+https://www.youtube.com/playlist?list=PLdMopq3Lfhpdfgo91tsv3MfhXXbNLQBV3
+https://www.youtube.com/playlist?list=PLFIM0718LjIUqXfmEIBE3-uzERZPh3vp6
+
+PHP Dasar Bagian 2 ( Looping, Conditional, Function)
+https://www.youtube.com/playlist?list=PLdMopq3Lfhpe4lsVGlTNqHjnupPXvxKrp
+
+Intro to Terminal & Git 
+https://www.youtube.com/watch?v=RwDjePJgnaw
+
+OOP pada PHP
+Sekolah Koding: https://www.youtube.com/playlist?list=PLCZlgfAG0GXAPy7l4Wgwhz11GbuR-h2M6 
+Web Programming UNPAS: https://www.youtube.com/playlist?list=PLFIM0718LjIWvxxll-6wLXrC_16h_Bl_p
+
+Belajar PHP untuk PEMULA | 10. DATABASE & MySQL
+https://www.youtube.com/watch?v=fxe6qev-bno
+
+Entity Relationship Diagram
+https://www.youtube.com/watch?v=y_q5x-YOxpM
+
+MVC dan Install Laravel
+https://www.youtube.com/playlist?list=PL8YCzrSDCR7it2LAOXVlG3tqtvqBoCn6I
+
+Templating Blade Laravel
+https://www.youtube.com/playlist?list=PL8YCzrSDCR7jKAGyOzK_ArZl92RyOXQqM
+
+Laravel Migration
+https://www.youtube.com/playlist?list=PL8YCzrSDCR7hlOzhq1qC7hc8QNBwi_nvV
+
+CRUD Part 1 - Query Builder
+https://www.youtube.com/playlist?list=PL8YCzrSDCR7g4IqBTi6zEbJZxyHaYZ9SL
+
+CRUD dengan Eloquent ORM
+https://www.youtube.com/playlist?list=PL8YCzrSDCR7jjhro5k1DRhR76piZ6Oan9
+
+Auth Laravel 6
+https://www.youtube.com/playlist?list=PL8YCzrSDCR7g59FZKT2OKY99HRfHo9NK9
+
+Eloquent Relationships
+https://www.youtube.com/playlist?list=PL8YCzrSDCR7iRsk3GKZfwk5XHBHmf0bDT
+
+Laravel Package & Library
+https://www.youtube.com/playlist?list=PL8YCzrSDCR7jsX-tkkCbxHRN5KKmg2yKQ
+
+Kolaborasi Dengan Git
+https://youtu.be/I-BtDFYlsjM
+
+Deploy Project Laravel ke Share Hosting
+https://www.youtube.com/watch?v=yfaSGjTzU_I
+
+How To Deploy Laravel On Heroku
+https://www.youtube.com/playlist?list=PL1aMeb5UP_PG1c7KcB-5RGjN8C5q5kzWX
+
+Menginstall Postgresql dan Memasangkannya ke Laravel
+https://www.youtube.com/watch?v=MOxedQDjjTk.
+
+
+
+
+
