@@ -61,5 +61,5 @@
           <!-- /.col -->
         </div>
     </div>        
-  </div>	
+  </div>
 @endsection
