@@ -1,7 +1,7 @@
 @extends('adminlte.master')
 
 @section('content')
-      <div class="ml-2 mt-4">
+      <div class="ml-3 mt-4">
         <div class="card card-primary">
             <div class="card-header">
                 <h3 class="card-title">Edit Pertanyaan</h3>

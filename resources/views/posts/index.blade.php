@@ -4,21 +4,24 @@
   <div class="ml-3 mt-4">
         <div class="row">
           <div class="col-md-12">
-            <div class="card">
+            <div class="card card-primary">
               <div class="card-header">
                 <h2 class="card-title">Tabel Pertanyaan</h2>
               </div>
               <!-- /.card-header -->
-              <div class="card-body">
+              <div class="mt-2">
                 @if(session('success'))
                   <div class="alert alert-success">
                     {{ session('success')}}
                   </div>
                 @endif
+              </div>
+              <div class="card-body">
+
                 <a href="/posts/create" class="btn btn-primary mb-2 btn btn-sm">Buat Pertanyaan</a>
                 <table class="table table-bordered">
                   <thead>                  
-                    <tr>
+                    <tr align="center">
                       <th style="width: 10px">No</th>
                       <th>Title</th>
                       <th>Body</th>
@@ -56,6 +59,7 @@
             <!-- /.card -->
           </div>
           <!-- /.col -->
-        </div>    
+        </div>
+    </div>        
   </div>	
 @endsection
