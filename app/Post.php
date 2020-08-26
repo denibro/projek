@@ -7,5 +7,5 @@ use Illuminate\Database\Eloquent\Model;
 class Post extends Model
 {
     protected $table = "posts";
-    protected $fillable = ["title","body"]; // ini pake yang Mass Assignment
+    protected $fillable = ["title","body","user_id"]; // ini pake yang Mass Assignment
 }
