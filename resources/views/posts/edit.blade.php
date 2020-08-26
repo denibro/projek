@@ -12,11 +12,11 @@
                 <div class="card-body">
                   <div class="form-group">
                     <label for="title">title Pertanyaan</label>
-                    <input type="text" class="form-control" id="title" placeholder="Enter title" name="title" value="{{ old('title', $post->title) }}">
+                    <input type="text" class="form-control" id="title" placeholder="Enter title" name="title" value="{{ old('title', $post->title) }}" required>
                    </div>
                   <div class="form-group">
                     <label for="body">Body</label>
-                    <input type="text" class="form-control" id="body" placeholder="Enter body" name="body" value="{{ old('body', $post->body) }}">
+                    <input type="text" class="form-control" id="body" placeholder="Enter body" name="body" value="{{ old('body', $post->body) }}" required>
                   </div>
                 </div>
                   <div class="card-footer">
