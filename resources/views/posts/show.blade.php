@@ -10,6 +10,7 @@
 				    <h1>Title : {{$post->title}}</h1>
 				    <br>
 				    <h3>Body : {{$post->body}}</h3>
+				    <h3>Author : {{$post->author->name}}</h3>
 			    </div> 
 		</div>
 	</div>	

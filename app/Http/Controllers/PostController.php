@@ -55,6 +55,7 @@ class PostController extends Controller
                 "body" => $request["body"],
                 "user_id" => Auth::id()
         ]);
+
     	return redirect('/posts')->with('success', 'data berhasil di Simpan');
     }
 
@@ -65,7 +66,10 @@ class PostController extends Controller
     	// $posts = DB::table('posts')->get(); // select * from posts
 
         // pake elequent
-        $posts = Post::all();
+        // $posts = Post::all();// menampilkan semua data postingan semua users 
+
+        $user = Auth::user();// menampilkan semua data postingan satu user/user tertentu 
+        $posts = $user->posts;// menampilkan semua data postingan satu user/user tertentu
     	return view('posts.index', compact('posts'));
     }
 
