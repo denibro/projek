@@ -71,22 +71,22 @@
 
     <body id="page-top">
 <!-- navbar -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-transparent fixed-top" id="mainNav">
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
             <div class="container">
-              <a class="navbar-brand text-white" href="#page-top"><h3>KlikBitNET</h3></a>
+<!--               <a class="navbar-brand nav-item" href="#page-top"><h3><SPAN class="font-weight-bold">KLIKBITNET</SPAN></h3></a> -->
               <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
                   <li class="nav-item">
-                    <a class="nav-link text-white" href="#">HOME <span class="sr-only">(current)</span></a>
+                    <a class="nav-link  font-weight-bold text-white" href="#">HOME <span class="sr-only">(current)</span></a>
                   </li>
                   <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle text-white" href="#product" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <a class="nav-link dropdown-toggle  font-weight-bold text-white" href="#product" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                       PRODUCT
                     </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <div class="dropdown-menu text-white" aria-labelledby="navbarDropdown">
                       <a class="dropdown-item" href="#">PUISI</a>
                       <div class="dropdown-divider"></div>
                       <a class="dropdown-item" href="#">CERPEN</a>
@@ -95,16 +95,16 @@
                     </div>
                  </li>
                   <li class="nav-item">
-                    <a class="nav-link text-white" href="#">ABOUT</a>
+                    <a class="nav-link  font-weight-bold text-white" href="#">ABOUT</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link text-white" href="#">CONTACT</a>
+                    <a class="nav-link  font-weight-bold text-white" href="#">CONTACT</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link text-white" href="{{ url('/home') }}">LOGIN</a>
+                    <a class="nav-link  font-weight-bold text-white" href="{{ url('/home') }}">LOGIN</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link text-white" href="{{ route('register') }}">REGISTER</a>
+                    <a class="nav-link  font-weight-bold text-white" href="{{ route('register') }}">REGISTER</a>
                   </li>                   
                 </ul>
               </div>
@@ -127,15 +127,81 @@
                     @endauth
                 </div>
             @endif -->
+<!-- login dan legister -->
+<!-- jumbotron
                 <div class="jumbotron">
                   <div class="container">
-                      <h1 class="display-4" >EXPLORE YOUR SELF</h1>
+                      <h4 class="display-4" >EXPLORE YOUR SELF
+                        <br>
+                        <div class="with">WITH</div>
+                        <br>
+                        <div class="klik font-weight-bold">KlikBITNet</div></h4>
+
                       <hr class="my-4">
-                      <p class="lead">Berimajinasi sehat untuk hidup lebih bebas tanpa batas</p>
-                      <a class="btn btn-primary btn-md" href="#" role="button">Pelajari Lebih jauh</a>
+                      <p class="lead">Imajinasi Sehat Untuk Hidup Lebih Bebas Tanpa Batas</p>
+                      <a class="btn btn-primary btn-md font-weight-bold" href="#" role="button">KUNJUNGI</a>
                   </div>
                 </div>
-<!-- login dan legister -->
+batas jumbotron -->
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="../img/1.jpeg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+              <h4 class="display-4" >EXPLORE YOUR SELF
+              <br>
+              <div class="with">WITH</div>
+              <br>
+              <div class="klik font-weight-bold">KlikBITNet</div></h4>
+              <hr class="my-4">
+              <p class="lead">Imajinasi Sehat Untuk Hidup Lebih Bebas Tanpa Batas</p>
+            <a class="btn btn-primary btn-md font-weight-bold" href="#" role="button">KUNJUNGI</a>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="../img/2.jpeg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+              <h4 class="display-4" >EXPLORE YOUR SELF
+              <br>
+              <div class="with">WITH</div>
+              <br>
+              <div class="klik font-weight-bold">KlikBITNet</div></h4>
+              <hr class="my-4">
+              <p class="lead">Imajinasi Sehat Untuk Hidup Lebih Bebas Tanpa Batas</p>
+            <a class="btn btn-primary btn-md font-weight-bold" href="#" role="button">KUNJUNGI</a>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="../img/3.jpeg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+              <h4 class="display-4" >EXPLORE YOUR SELF
+              <br>
+              <div class="with">WITH</div>
+              <br>
+              <div class="klik font-weight-bold">KlikBITNet</div></h4>
+              <hr class="my-4">
+              <p class="lead">Imajinasi Sehat Untuk Hidup Lebih Bebas Tanpa Batas</p>
+            <a class="btn btn-primary btn-md font-weight-bold" href="#" role="button">KUNJUNGI</a>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
+
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
