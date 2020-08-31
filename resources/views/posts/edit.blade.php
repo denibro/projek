@@ -1,6 +1,7 @@
 @extends('adminlte.master')
 
 @section('content')
+<a href="/posts/create" class="btn btn-primary mb-2 btn btn-sm"></a>
       <div class="ml-3 mt-4">
         <div class="card card-primary">
             <div class="card-header">
