@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>DewCode</title>
+        <title>KlikBITNet</title>
 
         <!-- Fonts -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"><!-- css -->
@@ -152,7 +152,7 @@ batas jumbotron -->
       </ol>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="../img/1.jpeg" class="d-block w-100" alt="...">
+          <img src="../img/1.jpeg" class="d-block w-100" alt="..." class="boy">
           <div class="carousel-caption d-none d-md-block">
               <h4 class="display-4" >EXPLORE YOUR SELF
               <br>
@@ -167,26 +167,26 @@ batas jumbotron -->
         <div class="carousel-item">
           <img src="../img/2.jpeg" class="d-block w-100" alt="...">
           <div class="carousel-caption d-none d-md-block">
-              <h4 class="display-4" >EXPLORE YOUR SELF
+              <h4 class="display-4" >
               <br>
-              <div class="with">WITH</div>
+              <div class="with2">BLAST YOUR MIND HERE</div>
               <br>
-              <div class="klik font-weight-bold">KlikBITNet</div></h4>
+              <div class="klik font-weight-bold"></div></h4>
               <hr class="my-4">
-              <p class="lead">Imajinasi Sehat Untuk Hidup Lebih Bebas Tanpa Batas</p>
+              <p class="lead"</p>
             <a class="btn btn-primary btn-md font-weight-bold" href="#" role="button">KUNJUNGI</a>
           </div>
         </div>
         <div class="carousel-item">
           <img src="../img/3.jpeg" class="d-block w-100" alt="...">
           <div class="carousel-caption d-none d-md-block">
-              <h4 class="display-4" >EXPLORE YOUR SELF
+              <h4 class="display-4" >
               <br>
-              <div class="with">WITH</div>
+              <div class="with3">NO LIMITS IS FUN</div>
               <br>
-              <div class="klik font-weight-bold">KlikBITNet</div></h4>
+              <div class="klik font-weight-bold"></div></h4>
               <hr class="my-4">
-              <p class="lead">Imajinasi Sehat Untuk Hidup Lebih Bebas Tanpa Batas</p>
+              <p class="lead"></p>
             <a class="btn btn-primary btn-md font-weight-bold" href="#" role="button">KUNJUNGI</a>
           </div>
         </div>

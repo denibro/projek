@@ -1,64 +1,94 @@
 
 /*ini alah style jumbotron*/
-.jumbotron {
+/* .jumbotron {
 	text-align: center;
 	background-image: url('../img/1.jpeg');
 	background-size: cover;
 	height: 600px;
 	margin-top: 57px;
-}
+} */
 
-.jumbotron .display-4 {
+/* .jumbotron .display-4 {
 	color: white;
 	margin-top: 5px;
-}
+} */
 
-.jumbotron p {
+/* .jumbotron p {
 	color: white;
 	font-size: 25px;
-}
+} */
 
-.jumbotron hr {
+/* .jumbotron hr {
 	border-color: white;
 	width: 400px;
 	border-width: 2px;
-}
+} */
 
-.jumbotron .btn {
+/* .jumbotron .btn {
 	border : none;
 	border-radius: 25px;
 	padding-right: 20px;
 	padding-left: 20px;
 	margin-top: 40px;
 
-}
+} */
 
 .navbar {
 	background-color: #052c5a;
 }
 
-.dropdown-menu {
+/* .dropdown-menu {
 	background-color: #dbe1e0;
-}
+} */
 
-.with {
+/* .with {
 	font-size: 30px;
 	margin-top: 15px;
-}
+} */
 
-.klik {
+/* .klik {
 	font-size: 50px;
 	margin-top: -50px;
 
-}
+} */
 
 /*ini adalah style slider*/
 
 .carousel-item {
-	height: 500px;
-
-
+	height: 600px;
 }
+
+.display-4 {
+	margin-top: -400px;
+	font-size: 60px;
+}
+
+.with {
+	font-size: 35px;
+	margin-top: 20px;
+}
+
+.with2 {
+	font-size: 60px;
+	margin-top: 20px;
+}
+
+.with3 {
+	font-size: 60px;
+	margin-top: 30px;
+}
+
+.klik {
+	font-size: 40px;
+	margin-top: -50px;
+}
+
+.my-4 {
+	border-color: white;
+	width: 400px;
+	border-width: 2px
+}
+
 
 
 
