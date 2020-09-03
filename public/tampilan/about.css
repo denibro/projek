@@ -1,0 +1,14 @@
+
+.about hr {
+    width: 250px;
+    border-top: 3px solid #999;
+
+}
+
+section {
+    min-height: 600px;
+}
+
+.about {
+	margin-top: 70px;
+}

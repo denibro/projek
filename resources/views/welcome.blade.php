@@ -1,216 +1,332 @@
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-    <head>
+  <head>
+
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <title>KlikBITNet</title>
+ 
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+            <!-- <link rel="stylesheet" type="text/css" href="{{ asset('tampilan/jumbotron.css')}}"> -->
+            <link rel="stylesheet" type="text/css" href="{{ asset('tampilan/navbar.css')}}">
+            <link rel="stylesheet" type="text/css" href="{{ asset('tampilan/slider.css')}}">
+            <link rel="stylesheet" type="text/css" href="{{ asset('tampilan/about.css')}}">
+            <link rel="stylesheet" type="text/css" href="{{ asset('tampilan/portfolio.css')}}">
+            <link rel="stylesheet" type="text/css" href="{{ asset('tampilan/contact.css')}}">
+            <link rel="stylesheet" type="text/css" href="{{ asset('tampilan/footer.css')}}">
 
-        <!-- Fonts -->
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"><!-- css -->
-
-        <link rel="stylesheet" type="text/css" href="{{ asset('tampilan/style.css')}}">
 
 
-        <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
 
-        <!-- Styles -->
-        <style>
-            html, body {
-                background-color: #fff;
-                color: #636b6f;
-                font-family: 'Nunito', sans-serif;
-                font-weight: 200;
-                height: 100vh;
-                margin: 0;
-            }
 
-            .full-height {
-                height: 100vh;
-            }
 
-            .flex-center {
-                align-items: center;
-                display: flex;
-                justify-content: center;
-            }
+  </head>
 
-            .position-ref {
-                position: relative;
-            }
-
-            .top-right {
-                position: absolute;
-                right: 10px;
-                top: 18px;
-            }
-
-            .content {
-                text-align: center;
-            }
-
-            .title {
-                font-size: 84px;
-            }
-
-            .links > a {
-                color: #636b6f;
-                padding: 0 25px;
-                font-size: 13px;
-                font-weight: 600;
-                letter-spacing: .1rem;
-                text-decoration: none;
-                text-transform: uppercase;
-            }
-
-            .m-b-md {
-                margin-bottom: 30px;
-            }
-        </style>
-    </head>
-
-    <body id="page-top">
+    <body>
 <!-- navbar -->
-        <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-            <div class="container">
-<!--               <a class="navbar-brand nav-item" href="#page-top"><h3><SPAN class="font-weight-bold">KLIKBITNET</SPAN></h3></a> -->
-              <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ml-auto">
-                  <li class="nav-item">
-                    <a class="nav-link  font-weight-bold text-white" href="#">HOME <span class="sr-only">(current)</span></a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle  font-weight-bold text-white" href="#product" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      PRODUCT
-                    </a>
-                    <div class="dropdown-menu text-white" aria-labelledby="navbarDropdown">
-                      <a class="dropdown-item" href="#">PUISI</a>
-                      <div class="dropdown-divider"></div>
-                      <a class="dropdown-item" href="#">CERPEN</a>
-                      <div class="dropdown-divider"></div>
-                      <a class="dropdown-item" href="#">JOKE</a>
-                    </div>
-                 </li>
-                  <li class="nav-item">
-                    <a class="nav-link  font-weight-bold text-white" href="#">ABOUT</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link  font-weight-bold text-white" href="#">CONTACT</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link  font-weight-bold text-white" href="{{ url('/home') }}">LOGIN</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link  font-weight-bold text-white" href="{{ route('register') }}">REGISTER</a>
-                  </li>                   
-                </ul>
+
+<nav class="navbar navbar-expand-lg fixed-top">
+  <div class="container">
+      <a class="navbar-brand" href="#">KLIKBITNET</a> 
+      <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+      </button>
+
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"   aria-haspopup="true" aria-expanded="false">
+                 PROCUCT
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">PROCUCT 1</a>
+                <div class="dropdown-divider"></div>                
+                <a class="dropdown-item" href="#">PROCUCT 2</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">PROCUCT 3</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">PROCUCT 4</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">PROCUCT 5</a>
               </div>
-          </div>
-        </nav>
-<!-- navbar -->
-
-<!-- login dan legister -->
-<!--         <div class="flex-center position-ref full-height"> -->
-           <!--  @if (Route::has('login'))
-                <div class="top-right links">
-                    @auth
-                        <a href="{{ url('/home') }}">Home</a>
-                    @else
-                        <a href="{{ route('login') }}">Login</a>
-
-                        @if (Route::has('register'))
-                            <a href="{{ route('register') }}">Register</a>
-                        @endif
-                    @endauth
-                </div>
-            @endif -->
-<!-- login dan legister -->
-<!-- jumbotron
-                <div class="jumbotron">
-                  <div class="container">
-                      <h4 class="display-4" >EXPLORE YOUR SELF
-                        <br>
-                        <div class="with">WITH</div>
-                        <br>
-                        <div class="klik font-weight-bold">KlikBITNet</div></h4>
-
-                      <hr class="my-4">
-                      <p class="lead">Imajinasi Sehat Untuk Hidup Lebih Bebas Tanpa Batas</p>
-                      <a class="btn btn-primary btn-md font-weight-bold" href="#" role="button">KUNJUNGI</a>
-                  </div>
-                </div>
-batas jumbotron -->
-
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-      <ol class="carousel-indicators">
-        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-      </ol>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="../img/1.jpeg" class="d-block w-100" alt="..." class="boy">
-          <div class="carousel-caption d-none d-md-block">
-              <h4 class="display-4" >EXPLORE YOUR SELF
-              <br>
-              <div class="with">WITH</div>
-              <br>
-              <div class="klik font-weight-bold">KlikBITNet</div></h4>
-              <hr class="my-4">
-              <p class="lead">Imajinasi Sehat Untuk Hidup Lebih Bebas Tanpa Batas</p>
-            <a class="btn btn-primary btn-md font-weight-bold" href="#" role="button">KUNJUNGI</a>
-          </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">ABOUT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">CONTACT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">PORTFOLIO</a>
+            </li>              
+            <li><a href="{{ url('/home') }}" class="nav-link">LOGIN</a></li>
+            <li><a href="{{ route('register') }}" class="nav-link">REGISTER</a></li>
+          </ul>
         </div>
-        <div class="carousel-item">
-          <img src="../img/2.jpeg" class="d-block w-100" alt="...">
-          <div class="carousel-caption d-none d-md-block">
-              <h4 class="display-4" >
-              <br>
-              <div class="with2">BLAST YOUR MIND HERE</div>
-              <br>
-              <div class="klik font-weight-bold"></div></h4>
-              <hr class="my-4">
-              <p class="lead"</p>
-            <a class="btn btn-primary btn-md font-weight-bold" href="#" role="button">KUNJUNGI</a>
-          </div>
+  </div>
+</nav>
+
+
+
+<!-- <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+  <a class="navbar-brand" href="#">Navbar</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Dropdown
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Something else here</a>
         </div>
-        <div class="carousel-item">
-          <img src="../img/3.jpeg" class="d-block w-100" alt="...">
-          <div class="carousel-caption d-none d-md-block">
-              <h4 class="display-4" >
-              <br>
-              <div class="with3">NO LIMITS IS FUN</div>
-              <br>
-              <div class="klik font-weight-bold"></div></h4>
-              <hr class="my-4">
-              <p class="lead"></p>
-            <a class="btn btn-primary btn-md font-weight-bold" href="#" role="button">KUNJUNGI</a>
-          </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav> -->
+
+<!-- akhir navbar -->
+
+
+
+  
+
+<!-- slider -->
+<div id="carouselExampleCaptions" class="carousel slide slider" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+    <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="/tampilan/img/slider/slide3.jpg" class="d-block w-100 gambar-slider" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>First slide label</h5>
+        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="/tampilan/img/slider/slide2.jpg" class="d-block w-100 gambar-slider" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Second slide label</h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="/tampilan/img/slider/slide1.jpg" class="d-block w-100 gambar-slider" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Third slide label</h5>
+        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+      </div>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+<!-- akhir slider -->
+
+<div class="container">
+<!-- about -->
+<section class="about" id="about">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <h2 class = "text-center">About</h2>
+        <hr>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-6">
+        <p class="text-justify">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          <br>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          <br>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+      </div>
+      <div class="col-sm-6">
+        <p class="text-justify">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          <br>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          <br>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+      </div>    
+    </div>
+  </div>
+</section>
+<!-- akhir about -->
+
+<!-- portfolio -->
+  <section class="portfolio" id="portfolio">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 text-center">
+          <h2 class="port">Portfolio</h2>
+          <hr>
         </div>
       </div>
-      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
+
+      <div class="row">
+        <div class="col-sm-4">
+          <a href="1" class="thumbnail">
+            <img src="/tampilan/img/portfolio/pertama.jpg" alt="" class="img-thumbnail">
+          </a>
+        </div>
+        <div class="col-sm-4">
+          <a href="1" class="thumbnail">
+            <img src="/tampilan/img/portfolio/kedua.jpg" alt="" class="img-thumbnail">
+          </a>
+        </div>
+        <div class="col-sm-4">
+          <a href="1" class="thumbnail">
+            <img src="/tampilan/img/portfolio/ketiga.jpg" alt="" class="img-thumbnail">
+          </a>
+        </div>
+        <br>
+        <div class="col-sm-4">
+          <a href="1" class="thumbnail">
+            <img src="/tampilan/img/portfolio/empat.jpg" alt="" class="img-thumbnail">
+          </a>
+        </div>
+        <div class="col-sm-4">
+          <a href="1" class="thumbnail">
+            <img src="/tampilan/img/portfolio/lima.jpg" alt="" class="img-thumbnail">
+          </a>
+        </div>
+        <div class="col-sm-4">
+          <a href="1" class="thumbnail">
+            <img src="/tampilan/img/portfolio/enam.jpg" alt="" class="img-thumbnail">
+          </a>
+        </div>
+      </div>
     </div>
+  </section>
+
+<!-- akhir portfolio -->
+
+<!-- contact -->
+<section class="contact" id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <p></p>
+        <h2 class = "text-center">Contact</h2>
+        <hr>
+        <div class="text-center">
+          Email : deninurnov@gmail.com
+          <br>
+          Telp  : 087778385501
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- akhir contact -->
+</div>
 
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+<!-- footer -->
+ <footer>
+   <div class="container text-center">
+    <div class="row">
+      <div class="col-sm-12">
+        <p>
+          &copy; Copyright 2020 | built by
+          <a href="">DeniDew</a>
+            <i>
+<svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-up-right-square" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+  <path fill-rule="evenodd" d="M14 1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
+  <path fill-rule="evenodd" d="M5.172 10.828a.5.5 0 0 0 .707 0l4.096-4.096V9.5a.5.5 0 1 0 1 0V5.525a.5.5 0 0 0-.5-.5H6.5a.5.5 0 0 0 0 1h2.768l-4.096 4.096a.5.5 0 0 0 0 .707z"/>
+</svg>
+</svg>
+            </i>
+        </p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12">
+        <a href="" class="btn btn-danger"><i>
+         </i>Subcribe to Youtube </a>
+      </div>
+    </div>
+   </div>
+ </footer>
+<!-- akhir footer -->
 
 
 
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>     
 
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>     
 
 
 

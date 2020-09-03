@@ -1,0 +1,16 @@
+/* jumbotron */
+.jumbotron {
+    background-image: url('../tampilan/img/pegunungan.jpeg');
+    background-size: cover;
+    text-align: center;
+    margin-top: 70px;;
+
+}
+
+.jumbotron .garis {
+    border-width: 2px;
+    border-color: white;
+    width: 200px;
+}
+
+/* akhir jumbotron */

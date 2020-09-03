@@ -1,0 +1,10 @@
+.contact hr {
+    width: 250px;
+    border-top: 3px solid #999;
+
+}
+
+.contact {
+	min-height: 300px;
+	margin-top: 30px;
+}
