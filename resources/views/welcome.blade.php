@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}" id="home">
   <head>
 
         <meta charset="utf-8">
@@ -28,7 +28,7 @@
 
 <nav class="navbar navbar-expand-lg fixed-top">
   <div class="container">
-      <a class="navbar-brand" href="#">KLIKBITNET</a> 
+      <a class="navbar-brand page-scroll" href="#home">KLIKBITNET</a> 
       <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
       </button>
@@ -37,7 +37,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="#home">HOME <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"   aria-haspopup="true" aria-expanded="false">
@@ -56,13 +56,13 @@
               </div>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">ABOUT</a>
+              <a class="nav-link page-scroll" href="#about">ABOUT</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">CONTACT</a>
+              <a class="nav-link page-scroll" href="#contact">CONTACT</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">PORTFOLIO</a>
+              <a class="nav-link page-scroll" href="#portfolio">PORTFOLIO</a>
             </li>              
             <li><a href="{{ url('/home') }}" class="nav-link">LOGIN</a></li>
             <li><a href="{{ route('register') }}" class="nav-link">REGISTER</a></li>
@@ -74,47 +74,54 @@
 <!-- akhir navbar -->
 
 
-
-  
-
 <!-- slider -->
-<div id="carouselExampleCaptions" class="carousel slide slider" data-ride="carousel">
+<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
   <ol class="carousel-indicators">
     <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
     <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
     <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
   </ol>
-  <div class="carousel-inner">
+  <div class="carousel-inner text-center">
     <div class="carousel-item active">
-      <img src="/tampilan/img/slider/slide3.jpg" class="d-block w-100 gambar-slider" alt="...">
+      <img src="/tampilan/img/slider/7.png" class="d-block w-100 gambar-slider" alt="...">
       <div class="carousel-caption d-none d-md-block">
-        <h5>First slide label</h5>
-        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+        <h1 class="display-4">EXPLORE YOUR SELF</h1>
+        <P class="with">WITH</P>
+        <P class="klik">KLIKBITNET</P>
+        <hr class="my-4">
+        <p class="lead">life full of imagination is fun, even more fun if our imagination can make it happen</p>
+        <a class="btn btn-primary btn-lg" href="#" role="button">KUNJUNGI</a>
       </div>
     </div>
     <div class="carousel-item">
-      <img src="/tampilan/img/slider/slide2.jpg" class="d-block w-100 gambar-slider" alt="...">
+      <img src="/tampilan/img/slider/8.jpg" class="d-block w-100 gambar-slider" alt="...">
       <div class="carousel-caption d-none d-md-block">
-        <h5>Second slide label</h5>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <h1 class="display-4">BLAST YOUR MIND OVER HERE</h1>
+        <hr class="my-4">
+        <hr class="my-4">
+        <p class="lead"></p>
+        <a class="btn btn-primary btn-lg" href="#" role="button">KUNJUNGI</a>
       </div>
     </div>
     <div class="carousel-item">
-      <img src="/tampilan/img/slider/slide1.jpg" class="d-block w-100 gambar-slider" alt="...">
+      <img src="/tampilan/img/slider/9.jpg" class="d-block w-100 gambar-slider" alt="...">
       <div class="carousel-caption d-none d-md-block">
-        <h5>Third slide label</h5>
-        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+        <h1 class="display-4">UNLIMITED FREE IMAGINATION</h1>
+        <hr class="my-4">
+        <hr class="my-4">
+        <p class="lead"></p>
+        <a class="btn btn-primary btn-lg" href="#" role="button">KUNJUNGI</a>
       </div>
     </div>
+      <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
   </div>
-  <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
 </div>
 <!-- akhir slider -->
 
@@ -266,7 +273,6 @@
   <path fill-rule="evenodd" d="M14 1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
   <path fill-rule="evenodd" d="M5.172 10.828a.5.5 0 0 0 .707 0l4.096-4.096V9.5a.5.5 0 1 0 1 0V5.525a.5.5 0 0 0-.5-.5H6.5a.5.5 0 0 0 0 1h2.768l-4.096 4.096a.5.5 0 0 0 0 .707z"/>
 </svg>
-</svg>
             </i>
         </p>
       </div>
@@ -283,12 +289,12 @@
 
 
 
-
-
-
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>     
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="{{ asset('tampilan/script.js')}}"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>   
 
 
 
