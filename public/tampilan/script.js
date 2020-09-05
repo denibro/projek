@@ -10,7 +10,7 @@ $('.page-scroll').on('click', function(e){
 	// // pindahkan scroll
 	$('html, body').animate({
 		scrollTop:elementujuan.offset().top - 100
-  }, 1000, 'swing');
+  }, 1200, 'swing');
   
 	e.preventDefault();
 

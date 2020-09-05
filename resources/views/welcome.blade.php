@@ -83,7 +83,7 @@
   </ol>
   <div class="carousel-inner text-center">
     <div class="carousel-item active">
-      <img src="/tampilan/img/slider/7.png" class="d-block w-100 gambar-slider" alt="...">
+      <img src="/tampilan/img/slider/7.png" class="d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block">
         <h1 class="display-4">EXPLORE YOUR SELF</h1>
         <P class="with">WITH</P>
@@ -94,7 +94,7 @@
       </div>
     </div>
     <div class="carousel-item">
-      <img src="/tampilan/img/slider/8.jpg" class="d-block w-100 gambar-slider" alt="...">
+      <img src="/tampilan/img/slider/8.jpg" class="d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block">
         <h1 class="display-4">BLAST YOUR MIND OVER HERE</h1>
         <hr class="my-4">
@@ -104,7 +104,7 @@
       </div>
     </div>
     <div class="carousel-item">
-      <img src="/tampilan/img/slider/9.jpg" class="d-block w-100 gambar-slider" alt="...">
+      <img src="/tampilan/img/slider/9.jpg" class="d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block">
         <h1 class="display-4">UNLIMITED FREE IMAGINATION</h1>
         <hr class="my-4">
@@ -135,7 +135,7 @@
         <hr>
       </div>
     </div>
-    <div class="row">
+    <div class="row justify-content-center">
       <div class="col-sm-6">
         <p class="text-justify">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -199,8 +199,8 @@
         </div>
       </div>
 
-      <div class="row">
-        <div class="col-sm-4">
+      <div class="row"> 
+        <div class="col-sm-4 pb-4">
           <a href="1" class="thumbnail">
             <img src="/tampilan/img/portfolio/pertama.jpg" alt="" class="img-thumbnail">
           </a>
@@ -243,15 +243,45 @@
     <div class="row">
       <div class="col-sm-12">
         <p></p>
-        <h2 class = "text-center">Contact</h2>
+        <h2 class = "text-center pt-10">Contac Us</h2>
         <hr>
-        <div class="text-center">
-          Email : deninurnov@gmail.com
-          <br>
-          Telp  : 087778385501
-        </div>
       </div>
     </div>
+
+    <div class="row mt-4 justify-content-center">
+<!--       <div class="col-lg-auto">
+        <div class="card text-center" style="width: 18rem;">
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item"><h3>Location</h3></li>
+            <li class="list-group-item">My Office</li>
+            <li class="list-group-item">jl. Siliwangi </li>
+            <li class="list-group-item">Rangkasbitung Lebak Banten Indonesia 42313</li>
+            <li class="list-group-item">deninurnov@gmail.com</li>
+            <li class="list-group-item">087778385501</li>
+          </ul>
+          </div>
+      </div> -->
+      <div class="col-lg-5">
+        <form>
+          <div class="form-group">
+            <label for="nama">Nama</label>
+            <input type="text" class="form-control" id="nama">
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="text" class="form-control" id="email">
+          </div>
+          <div class="form-group">
+            <label for="telp">Telp</label>
+            <input type="text" class="form-control" id="telp">
+          </div>
+            <div class="form-group">
+            <label for="pesan">Pesan</label>
+            <textarea id="pesan" class="form-control" name="pesan"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Kirim Pesan</button>
+        </form>
+      </div>
   </div>
 </section>
 <!-- akhir contact -->
@@ -269,10 +299,10 @@
           &copy; Copyright 2020 | built by
           <a href="">DeniDew</a>
             <i>
-<svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-up-right-square" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-  <path fill-rule="evenodd" d="M14 1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
-  <path fill-rule="evenodd" d="M5.172 10.828a.5.5 0 0 0 .707 0l4.096-4.096V9.5a.5.5 0 1 0 1 0V5.525a.5.5 0 0 0-.5-.5H6.5a.5.5 0 0 0 0 1h2.768l-4.096 4.096a.5.5 0 0 0 0 .707z"/>
-</svg>
+              <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-up-right-square" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M14 1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
+                <path fill-rule="evenodd" d="M5.172 10.828a.5.5 0 0 0 .707 0l4.096-4.096V9.5a.5.5 0 1 0 1 0V5.525a.5.5 0 0 0-.5-.5H6.5a.5.5 0 0 0 0 1h2.768l-4.096 4.096a.5.5 0 0 0 0 .707z"/>
+              </svg>
             </i>
         </p>
       </div>
@@ -282,6 +312,19 @@
         <a href="" class="btn btn-danger"><i>
          </i>Subcribe to Youtube </a>
       </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12 justify-content-center">
+        <div class="location">
+          <h3>Location</h3>
+          My Office <br>
+          jl. Siliwangi <br>
+          Rangkasbitung Lebak Banten Indonesia 42313 <br>
+          deninurnov@gmail.com <br>
+          087778385501 <br>
+        </div>
+      </div>
+    </div>
     </div>
    </div>
  </footer>
